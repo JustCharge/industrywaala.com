@@ -18,7 +18,8 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-    origin: ["https://industrywaala-com.vercel.app/"],
+    origin: ["industrywaala-com-gzf7.vercel.app
+"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
 }));
