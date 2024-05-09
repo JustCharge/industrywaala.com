@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // const API_URL = import.meta.env.VITE_APP_BASE_URL + "/api";
-const API_URL = "industrwala-backend.netlify.app";
+const API_URL = "industrywaala-backend-qb1sgki4f-justcharges-projects.vercel.app";
 
 const baseQuery = fetchBaseQuery({ baseUrl: API_URL });
 
